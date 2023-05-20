@@ -1,4 +1,6 @@
 # snakeGame
 Jogo da cobrinha em Java Script
 
--Vou adicionar um contador do Score e um botão de start 
+COMO JOGAR:
+setas do teclado para se mover
+enter ou clicar no ok do alert para new game.
