@@ -13,6 +13,13 @@ h1 {
   margin: 0 auto;
 }
 
+.contador{
+  font-weight: bold;
+  align-items: center;
+  font-size: 2rem;
+}
+
+
 .cell {
   width: 20px;
   height: 20px;

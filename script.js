@@ -160,6 +160,11 @@ document.addEventListener("DOMContentLoaded", function () {
     generateNewFood();
     updateBoard();
     snake.intervalId = setInterval(moveSnake, snake.speed);
+    score++;
+    document.getElementById("score").textContent = snake.score;
+    setInterval(() => {
+      document.getElementById("score").textContent = snake.score;
+    }, 100);
   }
   
   function getRandomNumber(max) {
